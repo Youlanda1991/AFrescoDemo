@@ -10,8 +10,13 @@ import com.yolanda.myfrescodemo.adapter.FrescoAdapter;
 import com.yolanda.myfrescodemo.utils.ImageUrlUtils;
 
 /**
- * Created by YolandaLi on 2016/8/5 0005.
+ * Author： yolanda
+ *
+ * CreateTime： 2016/8/10 15:48
+ *
+ * description：加载很多图片
  */
+
 public class FrescoListActivity extends AppCompatActivity {
 
     Context context = this;

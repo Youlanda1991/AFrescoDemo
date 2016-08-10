@@ -20,7 +20,7 @@
         fresco:placeholderImage="@mipmap/placeholder"
         fresco:placeholderImageScaleType="centerCrop"
         fresco:progressBarAutoRotateInterval="5000"
-        fresco:progressBarImage="@mipmap/myprogress"
+        fresco:progressBarImage="@mipmap/retry"
         fresco:progressBarImageScaleType="centerCrop"
         fresco:retryImage="@mipmap/retry"
         fresco:retryImageScaleType="centerCrop"

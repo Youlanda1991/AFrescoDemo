@@ -19,6 +19,7 @@ public class MyApp extends Application {
     public void onCreate() {
         super.onCreate();
 
+//        使用Fresco需要进行初始化，ImagePipleLineCOnfig可以根据需要进行设置
         if (!httpProxy.equals("okhttp")) {
             config = ImagePipeLineConfigBuilder.getImagePipleLineConfig(this);
         } else {

@@ -1,8 +1,13 @@
 package com.yolanda.myfrescodemo.utils;
 
 /**
- * Created by 06peng on 2015/6/24.
+ * Author： yolanda
+ *
+ * CreateTime： 2016/8/10 15:44
+ *
+ * description：在其他例子里面copy过来的URL :)
  */
+
 public class ImageUrlUtils {
 
     public static String[] getImageUrls() {

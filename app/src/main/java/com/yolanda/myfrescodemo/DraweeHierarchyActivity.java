@@ -12,8 +12,13 @@ import com.facebook.drawee.generic.RoundingParams;
 import com.facebook.drawee.view.SimpleDraweeView;
 
 /**
- * Created by YolandaLi on 2016/8/5 0005.
+ * Author： yolanda
+ *
+ * CreateTime： 2016/8/10 15:48
+ *
+ * description：自定义DraweeHierarchy定义加载的图片的样式
  */
+
 public class DraweeHierarchyActivity extends AppCompatActivity {
     SimpleDraweeView simpleDraweeView;
 
@@ -31,7 +36,7 @@ public class DraweeHierarchyActivity extends AppCompatActivity {
     private void showPic() {
         GenericDraweeHierarchy hierarchy = new GenericDraweeHierarchyBuilder(getResources())
                 .setFailureImage(R.mipmap.faile, ScalingUtils.ScaleType.CENTER)
-                .setProgressBarImage(R.mipmap.myprogress, ScalingUtils.ScaleType.CENTER)
+                .setProgressBarImage(R.mipmap.retry, ScalingUtils.ScaleType.CENTER)
                 .setRetryImage(R.mipmap.retry, ScalingUtils.ScaleType.CENTER)
                 .setFadeDuration(3000)
                 .setRoundingParams(RoundingParams.asCircle())

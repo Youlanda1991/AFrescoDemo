@@ -7,8 +7,13 @@ import android.support.v7.app.AppCompatActivity;
 import com.facebook.drawee.view.SimpleDraweeView;
 
 /**
- * Created by YolandaLi on 2016/8/5 0005.
+ * Author： yolanda
+ *
+ * CreateTime： 2016/8/10 15:49
+ *
+ * description： 在xml里设置加载图片显示的样式
  */
+
 public class SimpleLoadActivity extends AppCompatActivity {
     SimpleDraweeView simpleDraweeView;
     @Override
